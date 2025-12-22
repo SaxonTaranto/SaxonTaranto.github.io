@@ -24,30 +24,27 @@ h2 {
   margin-bottom: 50px;
 }
 
-/* SECTION HEADINGS */
-/* Adds space ABOVE every h3, separating sections */
+/* Section headings */
 h3 {
   font-size: 1.25em;
-  margin-top: 70px;   /* <-- section separation */
+  margin-top: 50px;   /* unified spacing */
   margin-bottom: 12px;
 }
 
 /* Profile image */
 img {
-  display: block;             /* ensures it can be centered */
-  width: 600px;               /* twice the previous size */
-  height: auto;               /* keep proportions */
-  border-radius: 8px;         /* slightly rounded corners */
-  margin: 0 auto 40px auto;   /* centers image and adds space below */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* slightly stronger shadow for bigger size */
+  display: block;
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 50px auto;  /* same space below as h3 margin-top */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-
 
 /* Ensure the first h3 does not get excessive space from top */
 h2 + h3 {
-  margin-top: 40px;
+  margin-top: 50px;
 }
-
 /* Paragraphs */
 p {
   font-size: 1.05em;
