@@ -35,11 +35,11 @@ h3 {
 /* Profile image */
 img {
   display: block;             /* ensures it can be centered */
-  width: 300px;               /* slightly bigger */
+  width: 600px;               /* twice the previous size */
   height: auto;               /* keep proportions */
   border-radius: 8px;         /* slightly rounded corners */
   margin: 0 auto 40px auto;   /* centers image and adds space below */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* slightly stronger shadow for bigger size */
 }
 
 
