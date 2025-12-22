@@ -1,0 +1,66 @@
+/* Base page styling */
+body {
+  font-family: "EB Garamond", "Adobe Garamond Pro", Garamond, Georgia, "Times New Roman", serif;
+  max-width: 720px;
+  margin: 70px auto;
+  padding: 0 20px;
+  line-height: 1.65;
+  color: #111;
+  background: #ffffff;
+}
+
+/* Main title */
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 6px;
+}
+
+/* Subtitle */
+h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+/* SECTION HEADINGS */
+/* Adds space ABOVE every h3, separating sections */
+h3 {
+  font-size: 1.25em;
+  margin-top: 70px;   /* <-- section separation */
+  margin-bottom: 12px;
+}
+
+/* Ensure the first h3 does not get excessive space from top */
+h2 + h3 {
+  margin-top: 40px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.05em;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+/* Lists */
+ul {
+  margin-top: 0;
+  margin-bottom: 18px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Footer-like contact area refinement */
+a {
+  color: #111;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #444;
+}
