@@ -75,7 +75,7 @@ a:hover {
 
 /* Extra spacing for Subjects list and Profile Image */
 .subjects-list {
-  margin-bottom: 40px; /* some space after list */
+  margin-bottom: 10px; /* some space after list */
 }
 
 .profile-image {
