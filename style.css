@@ -73,7 +73,12 @@ a:hover {
   color: #444;
 }
 
-/* Extra space below Subjects list */
+/* Extra spacing for Subjects list and Profile Image */
 .subjects-list {
-  margin-bottom: 200px; /* space before the profile image */
+  margin-bottom: 40px; /* some space after list */
+}
+
+.profile-image {
+  margin-top: 40px;    /* extra space before image */
+  text-align: center;  /* ensures image stays centered */
 }
