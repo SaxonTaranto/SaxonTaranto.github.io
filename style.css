@@ -75,10 +75,10 @@ a:hover {
 
 /* Extra spacing for Subjects list and Profile Image */
 .subjects-list {
-  margin-bottom: 40px; /* some space after list */
+  margin-bottom: 60px; /* some space after list */
 }
 
 .profile-image {
-  margin-top: 40px;    /* extra space before image */
+  margin-top: 30px;    /* extra space before image */
   text-align: center;  /* ensures image stays centered */
 }
