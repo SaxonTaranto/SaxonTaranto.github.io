@@ -32,6 +32,15 @@ h3 {
   margin-bottom: 12px;
 }
 
+img {
+  display: block;       /* centers image if margin auto used */
+  width: 250px;         /* perfect size for profile picture */
+  height: auto;         /* keep aspect ratio */
+  border-radius: 8px;   /* slightly rounded corners */
+  margin: 0 auto 40px auto; /* center and add space below */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
 /* Ensure the first h3 does not get excessive space from top */
 h2 + h3 {
   margin-top: 40px;
