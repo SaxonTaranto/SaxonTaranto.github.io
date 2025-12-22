@@ -34,7 +34,7 @@ h3 {
 
 img {
   display: block;       /* centers image if margin auto used */
-  width: 250px;         /* perfect size for profile picture */
+  width: 300px;         /* perfect size for profile picture */
   height: auto;         /* keep aspect ratio */
   border-radius: 8px;   /* slightly rounded corners */
   margin: 0 auto 40px auto; /* center and add space below */
