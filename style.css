@@ -37,7 +37,7 @@ img {
   width: 600px;
   height: auto;
   border-radius: 8px;
-  margin: 0 auto 50px auto;  /* same space below as h3 margin-top */
+  margin: 0 auto 70px auto;  /* same space below as h3 margin-top */
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
